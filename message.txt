@@ -1,0 +1,288 @@
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.776, green: 0.725, blue: 0.886, alpha: 1).cgColor
+
+
+
+
+// Android - 15
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+
+
+
+
+// Frame 12
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.98, green: 0.969, blue: 0.922, alpha: 1).cgColor
+
+
+
+
+// Android - 14
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.98, green: 0.969, blue: 0.922, alpha: 1).cgColor
+
+
+
+
+// Frame 13
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.776, green: 0.725, blue: 0.886, alpha: 1).cgColor
+
+
+
+
+// Android - 17
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.776, green: 0.725, blue: 0.886, alpha: 1).cgColor
+
+
+
+
+// Frame 14
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "Checker.png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.78, b: 0, c: 0, d: 1, tx: -0.39, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// Forgot Password?
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 129, height: 29)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Quicksand-Regular", size: 12)
+
+
+// Line height: 15 pt
+
+
+view.text = "Forgot Password?"
+
+
+
+
+// Line 33
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 3176, height: 0)
+
+view.backgroundColor = .white
+
+
+var stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// Line 36
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 3176, height: 0)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// Line 34
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 3100, height: 0)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// Line 35
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 3100, height: 0)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// Frame 16
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.98, green: 0.969, blue: 0.922, alpha: 1).cgColor
+
+
+
+
+// Frame 23
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.967, green: 0.938, blue: 0.938, alpha: 1).cgColor
+
+
+
+
+// Frame 25
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 360, height: 640)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.776, green: 0.725, blue: 0.886, alpha: 1).cgColor
+
